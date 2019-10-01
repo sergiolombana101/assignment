@@ -1,5 +1,7 @@
 # COMP3104 Assignment Project
 
+[![Build Status](https://travis-ci.com/sergiolombana101/comp3104.svg?token=DfBGb6AxVypNvL72bVCi&branch=master)](https://travis-ci.com/sergiolombana101/comp3104)
+
 > This repository contains the base project we will be using for our assignment.
 
 To get the project up and running please ensure you have the following installed on your machine:
