@@ -12,6 +12,8 @@ env:
 
 before_install:
   - ls -la
+  - "npm config set spin false"
+  - npm i -g now
 
 install:
   - npm install
