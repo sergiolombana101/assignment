@@ -1,3 +1,5 @@
+#https://github.com/sergiolombana101
+
 language: node_js
 
 node_js:
@@ -5,5 +7,15 @@ node_js:
 
 cache: npm
 
+env:
+  - NOW_TOKEN="VRihodwu81gcAWzokpySNczc"
+
 before_install:
   - ls -la
+
+install:
+  - npm install
+
+script:
+  - npm run build
+  - npm run test
